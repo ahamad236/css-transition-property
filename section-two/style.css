@@ -1,0 +1,32 @@
+/* Reference link : https://www.w3schools.com/css/css3_transitions.asp */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* 
+    div {
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+    } 
+*/
+
+.transition-delay{
+    width: 150px;
+    height: 100px;
+    background-color: blueviolet;
+    color: #fff;
+    transition: width 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+.transition-delay:hover{
+    width: 300px;
+}
+
+
